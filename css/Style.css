@@ -1,0 +1,310 @@
+nav {
+  position: fixed;
+  z-index: 2;
+  right:0;
+  left:0;
+  }
+nav ul{
+  text-align: center; /*mitteilung textausrichtung*/
+  margin: 0; /*entfernt standardisierte aussenanstände*/
+  background-color: #2B2118;
+  padding-left: 0px;
+}
+
+nav li{
+  display: inline; /*sorgt das alle li-Elemente nebeneinandersind*/
+}
+nav a{
+  display: inline-block; /*block elemente der a-elemente, aussenabstände und höhen, volle breite usw*/
+  color: #F7F3E3; /*Textfarbe innerhalb der nav*/
+  font-size: 17px; /*schriftgrösse*/
+  padding: 22px 15px; /*innenabstand*/
+  text-decoration: none; /*entfernt den browser-standart das links unterstrichen sind*/
+  font-weight:650; /*schriftdicke auf semi bold*/
+  font-family: 'Raleway' bold;
+}
+#about {
+  display: flex;
+  font-family: 'Raleway', sans-serif;
+  color: #2B2118;
+  padding-top: 65px;
+}
+
+#portrait {
+  width: 50%;
+  position: relative;
+}
+#portrait_image{
+  background-size: cover; /*sorgt dass das bild immer elternelement komplett ausfüllt*/
+  background-image: url("../img/tara.jpg"); /*quelle vom bild*/
+  background-position: center; /*beim verkleinern wie position*/
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+#name h1 {
+  color: #2B2118;
+  line-height: 100%;
+  text-transform: none;
+}
+#h2 {
+  color: #2B2118
+}
+body { /*globale schrifteinstellung*/
+  font-size: 14px;
+  font-family: 'Raleway', sans-serif;
+  line-height: 21px;
+  color: #2B2118;
+}
+a { /*links stylen*/
+  color: blue;
+}
+#beschreibung {
+  width: 50%;
+  background: #F7F3E3;
+}
+#name {
+  min-height: 200px;
+  margin: 5%;
+}
+#adresse {
+  color: white;
+  background: #2B2118;
+  min-height: 200px;
+  padding: 5%;
+}
+#beschreibung span { /*spanTag innerhalb der ID*/
+  color: #2B2118;
+  font-size: 14px;
+  text-transform: none;
+  font-family: 'Raleway'
+}
+#skills h1 {
+  text-align: center;
+  padding-top: 5%;
+}
+body {
+  background-color: #F7F3E3;
+}
+main {
+  width: 100%;
+}
+#wrapper {
+  max-width: 1170px;
+  margin: 0 auto;
+  height: 100%;
+  padding: 0 5% 5% 5%;
+}
+/*skills section*/
+#wrapper h1 {
+  text-align: center;
+  line-height: 4em;
+}
+.skills-icons{
+  display: flex;
+  flex-flow: row wrap;
+}
+#erstes-icon, #zweites-icon, #drittes-icon {
+  height: 200px;
+  width: 33.3333%;
+  text-align: center;
+  font-family: "Raleway";
+}
+#erstes-icon {
+  background: url("../img/skills/photoshop.svg")50% 50% no-repeat;
+}
+#zweites-icon {
+  background: url("../img/skills/Indesign.svg")50% 50% no-repeat;
+}
+#drittes-icon {
+  background: url("../img/skills/Premiere.svg")50% 50% no-repeat;
+}
+#erstes-icon_hobby, #zweites-icon_hobby, #drittes-icon_hobby, #viertes-icon_hobby{
+  height: 200px;
+  width: 25%;
+  text-align: center;
+  font-family: "Raleway";
+  margin-bottom: 50px;
+}
+#erstes-icon_hobby {
+  background: url("../img/Hobbys/kunst.svg")50% 50% no-repeat;
+}
+#zweites-icon_hobby {
+  background: url("../img/Hobbys/tennis.svg")50% 50% no-repeat;
+}
+#drittes-icon_hobby {
+  background: url("../img/Hobbys/reisen.svg")50% 50% no-repeat;
+}
+#viertes-icon_hobby {
+  background: url("../img/Hobbys/fotos.svg")50% 50% no-repeat;
+}
+/*Sektion CV*/
+
+#CV, #Projekte, #Ausbildung {
+  float: left;
+  background-color: #F7F3E3;
+  padding-top: 5%;
+}
+.cv-eintrag{
+  width: 100%;
+  float: left;
+}
+.cv-eintrag img{
+vertical-align: middle;
+margin-right: 15px;
+}
+.links p{
+  display: inline-block;
+  padding: 15px;
+}
+.links {
+  float: left;
+}
+.rechts {
+  width: 60%;
+  vertical-align: baseline;
+  float: right;
+}
+.cv-titel {
+  font-size: 1.2em;
+  line-height: 3em;
+  font-weight: bold;
+}
+.cv-beschreibung {
+  border: 1px  #2B2118
+  padding: 0 15px 15px 15px;
+}
+/*Sektion Portfolio*/
+#portfolio {
+  float: left;
+  padding-top: 5%;
+}
+.portfolio-kacheln{
+  display: flex;
+  flex-flow: row wrap;
+}
+.portfolio-eintrag {
+  position: relative;
+  width: 33.3333%;
+}
+.portfolio-eintrag img{
+  width: 100%;
+  display: block;
+}
+.portfolio-eintrag .arbeit-titel{
+  background: rgba(43, 33, 24, 0.70);
+  height: 100%;
+  color: white;
+  padding: 45% 0;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  box-sizing: border-box;
+  visibility: hidden;
+}
+
+.portfolio-eintrag:hover .arbeit-titel {
+  visibility: visible;
+}
+
+#wrapper.detailseite {
+    padding: 3% 5% 5% 5%;
+}
+
+/*kontaktformular*/
+#formular {
+  clear:both; /*floating aufheben*/
+  padding-top: 5%;
+}
+
+.kontaktformular {
+  width: 70%;
+  margin: 0 auto;
+}
+.form-control, textarea{
+  padding: 2%;
+  width: 92%;
+  margin: 2%;
+}
+.absenden {
+  padding: 2%;
+  width:96%;
+  margin: 2%;
+  background: #e0dbc9;
+  border: none;
+  color: #2B2118;
+  font-weight: bold;
+  transition: all 0.4s;
+}
+.absenden:hover{
+  background: #b5b1a4;
+}
+/*footer*/
+footer{
+  background: #2B2118;
+  color: #F7F3E3;
+  padding: 2% 0;
+  margin: 2% 0 0 0;
+  text-align: center;
+}
+/*Mediaqueries bis 960*/
+@media only screen and (max-width: 960px) {
+  #about {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  #beschreibung {
+    width: 100%;
+  }
+  #portrait {
+    width: 100%;
+    padding-bottom: 56.25%; /*16:9*/
+  }
+  #erstes-icon, #zweites-icon, #drittes-icon {
+    width: 100%;
+  }
+  section#CV {
+    padding: 0 5%;
+  }
+  .links {
+    width: 100%;
+    text-align: center;
+  }
+  .rechts {
+    width: 100%;
+  }
+  #wrapper.detailseite {
+      padding-top: 10%;
+  }
+}
+/*Mediaqueries unter 480Pixel - z.B. Handy Hochformat*/
+@media only screen and (max-width: 480px) {
+    #about {
+      padding-top: 0px;
+    }
+  nav li {
+    display: block;
+    line-height: 0.1em;
+  }
+  ul {
+    padding: 0;
+  }
+  nav {
+    position: relative;
+    width: 100%;
+  }
+  main {
+    padding: 0;
+  }
+  .portfolio-eintrag {
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+  }
+  #wrapper.detailseite {
+      padding-top: 1%;
+  }
+}

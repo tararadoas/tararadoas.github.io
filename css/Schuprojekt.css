@@ -1,0 +1,15 @@
+/*Detailseite*/
+img.img-links{
+  width: 48%;
+  float:left;
+  margin: 0 4% 4% 0;
+}
+img.img-rechts{
+  width: 48%;
+  margin: 0 0% 4% 0;
+}
+.back{
+  width: 100%;
+  text-align: center;
+  height: 4em;
+}
