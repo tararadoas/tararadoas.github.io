@@ -111,13 +111,13 @@ main {
   font-family: "Raleway";
 }
 #erstes-icon {
-  background: url("./img/skills/photoshop.svg")50% 50% no-repeat;
+  background: url("./img/Skills/photoshop.svg")50% 50% no-repeat;
 }
 #zweites-icon {
-  background: url("./img/skills/Indesign.svg")50% 50% no-repeat;
+  background: url("./img/Skills/Indesign.svg")50% 50% no-repeat;
 }
 #drittes-icon {
-  background: url("./img/skills/Premiere.svg")50% 50% no-repeat;
+  background: url("./img/Skills/Premiere.svg")50% 50% no-repeat;
 }
 #erstes-icon_hobby, #zweites-icon_hobby, #drittes-icon_hobby, #viertes-icon_hobby{
   height: 200px;
@@ -127,13 +127,13 @@ main {
   margin-bottom: 50px;
 }
 #erstes-icon_hobby {
-  background: url("./img/Hobbys/kunst.svg")50% 50% no-repeat;
+  background: url("./img/Hobbys/Kunst.svg")50% 50% no-repeat;
 }
 #zweites-icon_hobby {
-  background: url("./img/Hobbys/tennis.svg")50% 50% no-repeat;
+  background: url("./img/Hobbys/Tennis.svg")50% 50% no-repeat;
 }
 #drittes-icon_hobby {
-  background: url("./img/Hobbys/reisen.svg")50% 50% no-repeat;
+  background: url("./img/Hobbys/Reisen.svg")50% 50% no-repeat;
 }
 #viertes-icon_hobby {
   background: url("../img/Hobbys/fotos.svg")50% 50% no-repeat;
