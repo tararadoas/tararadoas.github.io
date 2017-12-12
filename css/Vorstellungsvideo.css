@@ -1,20 +1,20 @@
 /*Detailseite*/
-#mp4{
+.mp4{
   width:75%;
   margin: 10px 12.5%;
 }
-video.mp4 {
-  width: 75%;
+img {
+  width: 25%;
   text-align: center;
-    margin: 10px 12.5%;
+    margin: 10px 62.5% 20px 12.5%;
 }
 
 @media only screen and (max-width: 960px) {
-  video.mp4 {
+  img {
   width: 100%;
   margin: 10px 0%;
   }
-  #mp4{
+  .mp4{
     width:100%;
     margin: 10px 0%;
   }
