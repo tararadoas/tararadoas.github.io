@@ -111,13 +111,13 @@ main {
   font-family: "Raleway";
 }
 #erstes-icon {
-  background: url('./img/Skills/photoshop.svg')50% 50% no-repeat;
+  background: url("./img/Skills/photoshop.svg")50% 50% no-repeat;
 }
 #zweites-icon {
-  background: url('./img/Skills/Indesign.svg')50% 50% no-repeat;
+  background: url("./img/Skills/Indesign.svg")50% 50% no-repeat;
 }
 #drittes-icon {
-  background: url('./img/Skills/Premiere.svg')50% 50% no-repeat;
+  background: url("./img/Skills/Premiere.svg")50% 50% no-repeat;
 }
 #erstes-icon_hobby, #zweites-icon_hobby, #drittes-icon_hobby, #viertes-icon_hobby{
   height: 200px;
